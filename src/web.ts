@@ -7,4 +7,9 @@ export class IdMetaCapacitorWeb extends WebPlugin implements IdMetaCapacitorPlug
     console.log('ECHO', options);
     return options;
   }
+
+  async startIdmetaFlow(): Promise<void> {
+    console.log('startIdmetaFlow is not supported on the web.');
+    // Handle or throw an error if needed
+  }
 }

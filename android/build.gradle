@@ -32,6 +32,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        profile {
+            initWith debug
+        }
     }
     lintOptions {
         abortOnError false
@@ -45,6 +48,12 @@ android {
 repositories {
     google()
     mavenCentral()
+     maven {
+        url uri("../build/host/outputs/repo")
+    }
+    maven {
+        url "https://storage.googleapis.com/download.flutter.io"
+    }
 }
 
 
@@ -55,4 +64,7 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    debugImplementation 'com.id.idmeta_sdk:flutter_debug:1.0'
+    profileImplementation 'com.id.idmeta_sdk:flutter_profile:1.0'
+    releaseImplementation 'com.id.idmeta_sdk:flutter_release:1.0'
 }
