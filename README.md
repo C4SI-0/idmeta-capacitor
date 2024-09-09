@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npm install idmeta-capacitor
+npm install https://github.com/C4SI-0/idmeta-capacitor.git
 npx cap sync
 ```
 
@@ -60,9 +60,11 @@ startIdmetaFlow(options: { flowId: string; userToken: string; }) => Promise<void
 </docgen-api>
 
 
-## Usage
+## Example Usage with Ionic
 
 ```html
+<!-- tab1.page.html -->
+
 <ion-header>
   <ion-toolbar>
     <ion-title>
@@ -77,6 +79,10 @@ startIdmetaFlow(options: { flowId: string; userToken: string; }) => Promise<void
 
 ```
 ```ts
+
+//tab1.page.html
+
+
 import { Component } from '@angular/core';
 import { IdMetaCapacitor } from 'idmeta-capacitor'
 @Component({
