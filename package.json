@@ -1,7 +1,7 @@
 {
   "name": "idmeta-capacitor",
-  "version": "0.0.1",
-  "description": "Plugin",
+  "version": "1.0.0",
+  "description": "idmeta-capacitor is a Capacitor Plugin integrated with the Idmeta SDK, providing seamless integration and functionality for your Capcitor/Ionic Application.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
