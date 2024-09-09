@@ -16,7 +16,11 @@ npx cap sync
 
 ```js
 
-To configure your Android project to use this library, add the following lines to your android/build.gradle
+To configure your Android project to use this plugin, 
+
+Open <host>\app\build.gradle
+
+Add the following code.
 
 allprojects {
     repositories {
@@ -24,7 +28,7 @@ allprojects {
         mavenCentral()
         String storageUrl = "https://storage.googleapis.com"
         maven {
-            url uri("../../node_modules/idmeta-capacitor/build/host/outputs/repo")
+            url uri("../../node_modules/idmeta-capacitor/android/build/host/outputs/repo")
         }
         maven {
             url "$storageUrl/download.flutter.io"
