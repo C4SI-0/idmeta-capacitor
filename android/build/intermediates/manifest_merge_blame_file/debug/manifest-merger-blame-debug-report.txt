@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.idmetacapacitor" >
+4
+5    <uses-sdk android:minSdkVersion="22" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:3:5-66
+7-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:3:22-64
+8    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+8-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:4:5-80
+8-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:4:22-77
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:5:5-65
+9-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:5:22-62
+10    <uses-permission android:name="android.permission.GALLERY" />
+10-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:6:5-66
+10-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:6:22-63
+11
+12    <application android:requestLegacyExternalStorage="true" >
+12-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:8:5-27:19
+12-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:9:9-52
+13
+14        <!-- Define the FlutterStarterActivity -->
+15        <activity
+15-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:12:9-17:15
+16            android:name="com.idmetacapacitor.FlutterStarterActivity"
+16-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:13:13-51
+17            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+17-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:14:13-144
+18            android:hardwareAccelerated="true"
+18-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:15:13-47
+19            android:windowSoftInputMode="adjustResize" />
+19-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:16:13-55
+20
+21        <!-- Define the FlutterActivity -->
+22        <activity
+22-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:20:9-25:15
+23            android:name="io.flutter.embedding.android.FlutterActivity"
+23-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:21:13-72
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:22:13-144
+25            android:hardwareAccelerated="true"
+25-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:23:13-47
+26            android:windowSoftInputMode="adjustResize" />
+26-->D:\Packages\idmeta-capacitor\android\src\main\AndroidManifest.xml:24:13-55
+27    </application>
+28
+29</manifest>
