@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.id.idmeta_sdk.host.app-merged_res-30:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.id.idmeta_sdk.host.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.id.idmeta_sdk.host.app-merged_res-30:/drawable_launch_background.xml.flat",
+        "source": "com.id.idmeta_sdk.host.app-main-20:/drawable/launch_background.xml"
+    }
+]
